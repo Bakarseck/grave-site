@@ -1,7 +1,7 @@
 ---
 title: Accueil
 menu: Accueil
-hero_image: your-hero-image.jpg
+hero_image: profil.jpeg
 hero_classes: text-light title-h1h2 overlay-dark-gradient
 hero_align: center
 ---
