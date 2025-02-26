@@ -1,0 +1,39 @@
+# Grav Git Ignore
+
+# Logs and cache files
+cache/
+logs/
+backups/
+images/
+
+# User-specific config files
+user/config/security.yaml
+user/accounts/
+
+# Dependencies installed via composer
+vendor/
+composer.lock
+
+# Dependencies installed via npm/yarn
+node_modules/
+
+# System and temp files
+.DS_Store
+Thumbs.db
+.env
+
+# Grav CLI-generated files
+bin/
+backup/
+
+# Ignore theme assets that are built dynamically
+user/themes/*/node_modules/
+user/themes/*/dist/
+
+# Ignore local editor and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
